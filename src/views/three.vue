@@ -1,6 +1,6 @@
 <template>
-  <div>
-    교회포토
+  <div style="text-align:center">
+    교회포토 준비중...
   </div>
 </template>
 

@@ -2,13 +2,13 @@
 <div id="homeFooter">
     <div id="footerMain1" class="rounded">
         <div id="footMain1Div1">
-            <button class="btn btn-outline-secondar" id="FootText1">오시는길</button>
+            <button class="btn btn-outline-secondar" id="FootText1" @click="wayToChurch">오시는길</button>
         </div>
     </div>
     <div id="footerMain2" class="rounded">
         <div id="footMain2Div1">
            <div id="footMain2Div2"></div>
-           <button class="btn btn-danger" id="FootText2">실시간예배 바로가기</button>
+           <button class="btn btn-danger" id="FootText2" @click="streamYt">실시간예배 바로가기</button>
         </div>
     </div>
     <div id="footerMain3" class="rounded">
@@ -33,9 +33,15 @@ export default {
     },
     methods : {
    openKakaoTalk() {
-     window.open('https://open.kakao.com/o/g9u76Ahd');
+     window.open('https://open.kakao.com/o/g9u76Ahd'); 
+   },
+   wayToChurch() {
+     window.open('https://m.map.naver.com/search2/site.naver?query=%EB%8C%80%EC%A0%84%20%ED%95%98%EB%8A%98%EC%98%81%EA%B4%91%EA%B5%90%ED%9A%8C&sm=hty&style=v5&code=1496162677#/map');
+    },
+   streamYt() {
+     window.open('https://www.youtube.com/channel/UCrnDVDK_AdHR1Ra6w4Dpl8Q');
+    }
    }
- }
 }
 </script>
 

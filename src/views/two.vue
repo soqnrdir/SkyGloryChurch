@@ -1,6 +1,6 @@
 <template>
-  <div>
-    설교말씀
+  <div style="text-align:center">
+    설교말씀 준비중...
   </div>
 </template>
 
