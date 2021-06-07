@@ -1,5 +1,5 @@
 <template>
-  <div id="body">
+  <div id="body" >
       <HomeMain1 />
       <HomeMain2 />
       <HomeMain3 />
