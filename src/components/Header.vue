@@ -1,7 +1,8 @@
 <template>
     <div id="nav">
      <div>
-      <h1 style="display:inline-block"  id="sgcText" @click ="clickMainLogo()">하늘영광교회</h1>
+
+      <h1 style="display:inline-block"  id="sgcText" @click ="clickMainLogo()"><img class="" style="width:50px;height:px;" src="../assets/churchLogo.png" >하늘영광교회</h1>
       <ul style="display:inline-block" class="navbar-nav">
         <li style="display:inline-block;margin-left:100px;" class="nav-item"><router-link class="nav-link" to="/about">교회소개</router-link></li>
         <li style="display:inline-block;margin-left:100px;" class="nav-item"><router-link class="nav-link" to="/two">설교말씀</router-link></li>
@@ -30,6 +31,9 @@ export default {
 }
 
 #sgcSubText {
+  position:relative;
+  top: -10px;
+  margin-left: 60px;
   color :	#4682B4;
   font-weight: bold;
 }
