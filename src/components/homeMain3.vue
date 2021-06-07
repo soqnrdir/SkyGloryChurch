@@ -1,7 +1,7 @@
 <template>
     <div class="main3 rounded">
         <div id="main3Title">
-            <button class="btn btn-info border border-primary">하늘영광교회 예배시간</button>
+            <div class="bg-info" style="font-weight:bold">ל하늘영광교회 예배시간ל</div>
         </div>
         <div id="main3Body">
             <div id="main3Body1">

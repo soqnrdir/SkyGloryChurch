@@ -1,7 +1,7 @@
 <template>
     <div class="main2 rounded">
         <div id="main2Title">
-            <h5 style="margin-left:10px;line-height:38px;">교회NEWS <button style="float:right;" class="btn btn-info"><span class="glyphicon glyphicon-plus">+</span></button></h5>
+            <h5 style="margin-left:10px;line-height:38px;">교회소식<button style="float:right;" class="btn btn-info">+</button></h5>
         </div>
         <ul>
             <li><a class="nav-link" href="" rel="noopener">1<span style="float:right;color:black">2021-06-04</span></a></li>
