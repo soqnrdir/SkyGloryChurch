@@ -8,7 +8,7 @@
         <li style="display:inline-block;margin-left:100px;" class="nav-item"><router-link class="nav-link" to="/three">교회포토</router-link></li>
         <li style="display:inline-block;margin-left:100px;" class="nav-item"><router-link class="nav-link" to="/four">커뮤니티</router-link></li>
       </ul>
-      <p id="sgcSubText" @click ="clickMainLogo()" >Heaven Golory Church</p>
+      <p id="sgcSubText" @click ="clickMainLogo()" >Heaven Glory of the Church</p>
       </div>
     </div>
 </template>
@@ -31,7 +31,6 @@ export default {
 
 #sgcSubText {
   color :	#4682B4;
-  margin-left : 40px;
   font-weight: bold;
 }
 
