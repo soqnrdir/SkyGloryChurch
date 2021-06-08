@@ -4,6 +4,7 @@
       <HomeMain2 />
       <HomeMain3 />
       <HomeFooter />
+
   </div>
 </template>
 
@@ -12,12 +13,14 @@ import HomeMain1 from "@/components/homeMain1"
 import HomeMain2 from "@/components/homeMain2"
 import HomeMain3 from "@/components/homeMain3"
 import HomeFooter from "@/components/HomeFooter"
+
 export default {
   components :{
       HomeMain1,
       HomeMain2,
       HomeMain3,
-      HomeFooter
+      HomeFooter,
+
   }
 }
 
